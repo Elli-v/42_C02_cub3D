@@ -6,12 +6,11 @@
 /*   By: soooh <soooh@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/28 13:11:41 by soooh             #+#    #+#             */
-/*   Updated: 2021/06/09 16:04:02 by soooh            ###   ########.fr       */
+/*   Updated: 2021/06/17 15:20:07 by soooh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "parse.h"
-#include <stdio.h>
 
 void cub_resolution(char *line, t_ele *ele, t_bundle *bun)
 {

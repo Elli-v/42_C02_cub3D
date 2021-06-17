@@ -6,12 +6,11 @@
 /*   By: soooh <soooh@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/11 19:25:36 by soooh             #+#    #+#             */
-/*   Updated: 2021/06/09 17:02:02 by soooh            ###   ########.fr       */
+/*   Updated: 2021/06/17 15:20:20 by soooh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include <stdio.h>
 
 int find_n(char *backup, int flag)
 {

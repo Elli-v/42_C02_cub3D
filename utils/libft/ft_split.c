@@ -6,12 +6,11 @@
 /*   By: soooh <soooh@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/06 12:18:39 by soooh             #+#    #+#             */
-/*   Updated: 2021/06/09 15:43:03 by soooh            ###   ########.fr       */
+/*   Updated: 2021/06/17 15:22:55 by soooh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 static int ft_wcount2(char const *s, char c)
 {
@@ -93,10 +92,7 @@ char **ft_split(char const *s, char c)
 
 	n = ft_wcount(s, c);
 	if (c == ',' && n != 3)
-	{
-		printf(">>>>>>%d\n", n);
 		return (NULL);
-	}
 	if (!(ret = (char **)ft_calloc((n + 1), sizeof(char *))))
 		return (0);
 	i = -1;
@@ -113,7 +109,6 @@ char **ft_split(char const *s, char c)
 			free(ret);
 			return (0);
 		}
-		printf(">>>>>>>ret[%d] = %s\n", i, ret[i]);
 	}
 	return (ret);
 }

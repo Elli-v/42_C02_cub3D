@@ -6,12 +6,11 @@
 /*   By: soooh <soooh@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/27 18:14:03 by soooh             #+#    #+#             */
-/*   Updated: 2021/06/09 15:40:34 by soooh            ###   ########.fr       */
+/*   Updated: 2021/06/17 15:20:13 by soooh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "parse.h"
-#include <stdio.h>
 
 void cub_rgb_error(int *e_flag, char **temp)
 {
